@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-image: url(images/background.jpg);
+    border: 2px double aqua;
+    height: 460px;
+    width: 320px;
+    margin: 5px;   
+}
+
+.top {
+display: flex;
+width: 95%;
+height: 16%;
+align-items: center;
+justify-content: space-between;
+}
+
+.profile {
+    border: 2px thick red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+.post {
+    height: 55%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.post >img {
+    height: 100%;
+    width: 93%;
+}
+
+.icons {
+    height: 34px;
+    width: 97%;
+    display:flex;
+    justify-content: space-between;
+    align-items: centre;
+}
+
+.bookmark >img{
+    height: 70%;
+}
+
+.lefticons >img {
+    height: 70%;
+}

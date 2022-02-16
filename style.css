@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: white;
+    width: 100%;
+    background-color: rgb(56, 160, 56);
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:larger;
+    background-color: rgb(16, 112, 16);
+}
+
+.leftheader {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    right: 10px;
+}
+
+.title {font-size:40px;}
+
+.rightheader {
+    position: relative;
+    right: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main {}
+
+.mainleft {}
+
+.mainleftup {
+
+}
+
+span {
+    
+}
+
+.mainleftdown {}
+
